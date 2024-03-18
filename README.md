@@ -1,4 +1,16 @@
-# React-admin Demo
+# React-admin Demo E-Commerce
+
+Use this repository to make it easier to install [react-admin E-Commerce demo](https://github.com/marmelab/react-admin/tree/master/examples/demo) and learn [react-admin](https://github.com/marmelab/react-admin).
+
+## How to run
+
+`npm install --force`
+
+`npm run dev`
+
+## Original README
+
+### from https://github.com/marmelab/react-admin/tree/master/examples/demo
 
 This is a demo of the [react-admin](https://github.com/marmelab/react-admin) library for React.js. It creates a working administration for a fake poster shop named Posters Galore. You can test it online at https://marmelab.com/react-admin-demo.
 

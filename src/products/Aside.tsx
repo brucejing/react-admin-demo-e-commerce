@@ -117,8 +117,13 @@ const Aside = () => {
                 >
                     {data &&
                         data.map((record: any) => (
+                            // <FilterListItem
+                            //     label={inflection.humanize(record.name)}
+                            //     key={record.id}
+                            //     value={{ category_id: record.id }}
+                            // />
                             <FilterListItem
-                                label={inflection.humanize(record.name)}
+                                label={record.name}
                                 key={record.id}
                                 value={{ category_id: record.id }}
                             />
